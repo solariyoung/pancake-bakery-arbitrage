@@ -51,11 +51,19 @@ const fromTokenDecimals = [18];
 
 // ApeSwap token listing
 // https://github.com/ApeSwapFinance/apeswap-token-lists/blob/main/lists/apeswap.json
-const toTokens = ['BUSD', 'BTCB', 'CAKE'];
+const toTokens = ['BUSD', 'BTCB', 'CAKE', 'SSS', 'JADE', 'RACA', 'THG', 'CPAN', 'MBOX', 'CHESS'];
 const toToken = [
     '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', // BUSD
     '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c', // BTCB
     '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', // CAKE
+    '0xc3028fbc1742a16a5d69de1b334cbce28f5d7eb3',// SSS
+    '0x7ad7242a99f21aa543f9650a56d141c57e4f6081',// JADE
+    '0x12bb890508c125661e03b09ec06e404bc9289040',// RACA
+    '0x9fd87aefe02441b123c3c32466cd9db4c578618f',// THG
+    '0x04260673729c5f2b9894a467736f3d85f8d34fc8',// CPAN
+    '0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377',// MBOX
+    '0x20de22029ab63cf9a7cf5feb2b737ca1ee4c82a6',// CHESS
+    
 ];
 const toTokenDecimals = [18, 18, 18];
 const amount = process.env.BNB_AMOUNT;
